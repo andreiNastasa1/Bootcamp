@@ -1,0 +1,67 @@
+#navbar {
+
+    position: sticky;
+    top: 0;
+
+    margin: 0;
+    background-color: grey;
+    font-size: 2em;
+    text-align: center;
+    color: red;
+    z-index: 2;
+
+
+    margin-right: 20px;
+}
+
+
+a {
+    color: red;
+
+}
+
+body {
+    text-align: center;
+}
+
+.article {
+    background-color: gray;
+    color: rgba(247, 142, 6, 0.89);
+    z-index: 1;
+    position: relative;
+    height: 700px;
+    width: 500px;
+
+}
+
+* {
+    color: aliceblue;
+}
+
+h1,
+h2,
+p {
+    background-color: grey;
+    color: white;
+}
+
+#dogs {
+
+
+    z-index: 1;
+    background-color: grey;
+
+}
+
+div {
+
+    margin: auto;
+    width: 50%;
+
+
+}
+
+li.navi {
+    display: inline;
+    margin-right: 20px;
+}

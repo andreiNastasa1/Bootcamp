@@ -1,0 +1,17 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+
+    float: left;
+}
+
+/* p {
+    clear: left;
+} */

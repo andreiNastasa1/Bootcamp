@@ -1,0 +1,38 @@
+*,
+#greeting {
+    text-align: center;
+    margin: 30px;
+    background-color: #E9967A;
+
+}
+
+h2,
+p {
+    text-align: left;
+
+}
+
+.navigation {
+    padding: 5px;
+    margin: 0, 25px, 0, 25px;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.article {
+    color: #008B8B;
+    border-style: dashed;
+}
+
+#blabla2 {
+    color: #9932CC;
+
+}
+
+#greeting {
+    font-size: 3em;
+
+}

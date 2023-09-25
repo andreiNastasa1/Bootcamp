@@ -1,0 +1,21 @@
+div {
+    /* display: block; */
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    /* display: none;
+    visibility: hidden; */
+}
+
+span {
+    display: inline;
+    background-color: dodgerblue;
+    /* height: 200px;
+    width: 200px; */
+    display: none;
+}
+
+img {
+    display: inline-block;
+    width: 200px;
+}
