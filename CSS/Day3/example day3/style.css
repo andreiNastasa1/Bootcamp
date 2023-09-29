@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #232323;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+
+    /* Glassmorphism */
+    background: rgba(23, 23, 23, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(74, 74, 74, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* em = font-size of parent container / element */
+/* rem = font-size of the HTML / ROOT element  */
+
+/* By default these are both 16px */
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 20px;
+    font-size: 1.2em;
+}
+
+.links a:hover {
+    color: #54ffda;
+}
+
+.container {
+    margin-top: 100px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+img {
+    border-radius: 5%;
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.overlay {
+    position: fixed;
+    left: -40px;
+    bottom: 200px;
+
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    width: 50px;
+    padding: 4px;
+    padding-left: 40px;
+    border: 2px solid white;
+
+    /* Glassmorphism */
+    background: rgba(195, 195, 195, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(74, 74, 74, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+}
+
+ion-icon {
+    color: #fff;
+    font-size: 2rem;
+    padding: 2px;
+}
+
+ion-icon:hover {
+    color: #54ffda;
+}
