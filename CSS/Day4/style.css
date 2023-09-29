@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    border: 3px solid black;
+    height: 80vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box1 {
+    background-color: #ff4557;
+}
+
+.box2 {
+    background-color: #1e90ff;
+}
+
+.box3 {
+    background-color: #2ed573;
+
+}
+
+/* Flexbox Code Below: */
+
+.container {
+
+    /* MUST CHANGE DISPLAY TO FLEX TO MAKE USE OF */
+    display: flex;
+    /* Flex direction sets the main axis */
+    /* Flex wrap determine how or if we want our element to wrap if contain  */
+    /* flex-wrap: wrap;
+    /*Adjust column*/
+    justify-content: center;
+
+    /*Adjust vertical*/
+    /* align-items: stretch; */
+    /* 
+    align-content: space-evenly;  */
+
+    /* justify-content: space-evenly;
+
+    gap: 5px; */
+
+}
+
+/* .box1 {
+    align-self: baseline;
+}
+
+
+.box2 {
+    align-self: baseline;
+}
+
+
+.box3 {
+    align-self: baseline;
+} */
+
+.box1 {
+    flex-basis: 200px;
+}
+
+.innerBox {
+    background-color: #1e90ff;
+
+    border: 2px solid #fff;
+
+
+}

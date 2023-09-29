@@ -1,0 +1,21 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+/* Styling for grid-item divs to make alternating colours */
+.container div {
+    background-color: #0f4c5c;
+    padding: 1em;
+}
+
+.container div:nth-child(even) {
+    background-color: #fb8b24;
+}
+
+/* Grid Code Below */
