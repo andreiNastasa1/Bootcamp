@@ -1,0 +1,14 @@
+/* Media Queries */
+@media(max-width: 900px) {
+    body {
+        background-color: #a9001c;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: flex;
+    }
+}
