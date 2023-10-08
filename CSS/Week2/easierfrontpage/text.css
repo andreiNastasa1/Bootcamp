@@ -1,0 +1,79 @@
+h2.text-align-center {
+    text-align: center;
+}
+
+.currency-symbol {
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+
+    align-self: flex-start;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.price {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 600;
+}
+
+.heading-medium {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.625rem;
+    line-height: 1.4;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.margin-medium {
+    margin: .9375rem;
+    margin-top: 0.9375rem;
+    margin-right: 0.9375rem;
+    margin-bottom: 0.9375rem;
+}
+
+.plan-features-div {
+    margin-bottom: 25px;
+    padding-top: 40px;
+    border-top: 2px solid #00b289;
+    ;
+}
+
+p.tick-div {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.625rem;
+    line-height: 1.4;
+    font-weight: 700;
+    display: inline;
+}
+
+h3.heading-small {
+
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.375rem;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+div.heading-xlarge {
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+}
+
+div.text-size-small {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: small;
+}

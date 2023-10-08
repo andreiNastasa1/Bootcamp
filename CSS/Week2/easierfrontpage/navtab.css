@@ -22,17 +22,31 @@ a {
     color: #00b289;
     text-decoration: none;
     cursor: pointer;
+
 }
 
 .nav-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
 .nav-bar-container {
     position: fixed;
     background-color: #fff;
-    padding: 12px 0;
+    padding: 1em 0;
     width: 100%;
+    z-index: 1000;
+
+}
+
+nav-bar {
+    display: inline;
+}
+
+div.logo {
+    display: inline;
+    float: left;
+    position: relative;
+    left: 350px;
 }

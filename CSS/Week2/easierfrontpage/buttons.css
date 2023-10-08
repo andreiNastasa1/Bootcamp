@@ -47,3 +47,36 @@ button {
     letter-spacing: .6px;
     text-transform: uppercase;
 }
+
+.main-nav-link {
+
+    display: flex;
+    margin-right: 40px;
+
+
+
+    align-items: center;
+    color: #4c4d5f;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+span.button-navbar {
+    display: flex;
+    float: right;
+    justify-content: center;
+}
+
+.main-nav-link .wide {
+
+    width: 100%;
+    padding: 22px 25px;
+    border-radius: 4px;
+    background-color: #00b289;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .7px;
+
+
+
+}

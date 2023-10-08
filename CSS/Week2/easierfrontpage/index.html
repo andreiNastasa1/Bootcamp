@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="navtab.css">
     <link rel="stylesheet" href="planspricing.css">
     <link rel="stylesheet" href="customize.css">
+    <link rel="stylesheet" href="text.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,700;1,400;1,500&display=swap"
@@ -22,18 +23,20 @@
     <header>
         <div class="nav-bar-container">
             <nav class="nav-bar">
-
-
-                <div class="nav-menu">
+                <div class="logo">
                     <a href="#" class="logo">
-                        <img src="./logo.svg" alt="Bonsai logo" width="150px" height="31px">
+                        <img class="logo" src="./logo.svg" alt="Bonsai logo" width="150px" height="31px">
                     </a>
+                </div>
+                <div class="nav-menu">
+
                     <a href="#" class="main-nav-link">Product</a>
                     <a href="#" class="main-nav-link">Templates</a>
                     <a href="#" class="main-nav-link">Pricing</a>
                     <a href="#" class="main-nav-link">Reviews</a>
-                    <a href="#" class="main-nav-link"> <button class="nav-button" id="log-in">LOG IN</button></a>
-                    <a href="#" class="main-nav-link"><button class="w-button">START FREE</button></a>
+                    <span class="button-navbar"> <a href="#" class="main-nav-link"> <button class="nav-button"
+                                id="log-in">LOG IN</button></a>
+                        <a href="#" class="main-nav-link"><button class="w-button">START FREE</button></a></span>
                 </div>
 
 
@@ -46,98 +49,152 @@
             <div class="section-main spacing"></div>
             <div class="blue-shape _12"></div>
             <div class="page-padding z-index-2">
-                <section class="right-content pricing-plans">
-                    <h1 class="heading-large">Plans & Pricing</h1>
-                </section>
-                <section class="left-content pricing-plans">
-                    <div class="monthly-text">Monthly</div>
-                    <div class="toggle"><label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                        </label></div>
-                    <div class="yearly-text">Yearly</div>
+                <div class="float-left">
+                    <section class="right-content pricing-plans">
 
-                </section>
+                    </section>
+                    <section class="left-content pricing-plans">
+                        <h1 class="heading-large">Plans & Pricing</h1>
+                        <div class="monthly-text">Monthly</div>
+                        <div class="toggle"><label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label></div>
+                        <div class="yearly-text">Yearly</div>
 
-                <br><br><br><br>
-                <div class="section-main spacing"></div>
+                    </section>
+                </div>
+
+
+
                 <div class="whatever">
                     <article class="card">
 
                         <h3>Starter</h3>
+
                         <p>Ideal for freelancers and contractors just starting out.</p>
-                        <ul class="plan-features-div">
-                            <li class="tick-div"><img src="./tick.png" alt="">All templates</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Unlimited Clients & Projects</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Invoicing & Payments</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Proposals & Contracts</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Tasks & Time Tracking</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Client CRM</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Expense tracking</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Up to 5 Project Collaborators</li>
-                        </ul>
-                        <div class="margin-top auto"></div>
-                        <a href="#" class="main-nav-link"><button class="w-button">START FREE</button></a>
+                        <div class="pricebox">
+                            <div class="price">
+                                <span class="currency-symbol">$
+                                </span>
+                                17
+                                <span class="heading-medium">/month</span>
+                                <div class="plan-features-div"></div>
+                                <ul>
+                                    <p class="tick-div"><img src="./tick.png" alt="">All templates</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Unlimited Clients & Projects</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Invoicing & Payments</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Proposals & Contracts</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Tasks & Time Tracking</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Client CRM</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Expense tracking</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Up to 5 Project Collaborators</p>
+                                </ul>
+                                <div class="margin-top auto"></div>
+                                <a href="#" class="main-nav-link"><button class="w-button wide">START FREE</button></a>
                     </article>
                     <article class="card">
-                        <h3>Professional</h3>
+                        <h3>Professional
+
+                        </h3>
+
                         <p>Everything a growing independent business needs to thrive.</p>
-                        <ul>
-                            <li class="tick-div"><img src="./tick.png" alt="">Everything in Starter Plus...</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Custom Brading</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Forms & Questionnaires</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Workflow Automations</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Client Portal</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Calendly Integration</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Zapier Integration</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Up to 15 Project Collaborators</li>
-                        </ul>
-                        <div class="margin-top auto"></div>
-                        <a href="#" class="main-nav-link"><button class="w-button">START FREE</button></a>
+                        <div class="pricebox">
+                            <div class="price">
+                                <span class="currency-symbol">$
+                                </span>
+                                32
+                                <span class="heading-medium">/month</span>
+                                <div class="plan-features-div"></div>
+                                <ul>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Everything in Starter Plus...</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Custom Brading</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Forms & Questionnaires</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Workflow Automations</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Client Portal</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Calendly Integration</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Zapier Integration</p>
+                                    <p class="tick-div"><img src="./tick.png" alt="">Up to 15 Project Collaborators
+                                    </p>
+                                </ul>
+                                <div class="margin-top auto"></div>
+                                <a href="#" class="main-nav-link"><button class="w-button wide">START FREE</button></a>
                     </article>
                     <article class="card">
                         <h3>Business</h3>
+
                         <p>The perfect package for small businesses and agencies.</p>
+                        <div class="pricebox">
+                            <div class="price">
+                                <span class="currency-symbol">$</span>
+                                52
+                                <span class="heading-medium">/month</span>
+                            </div>
+                            <div class="plan-features-div"></div>
+                        </div>
+
                         <ul>
-                            <li class="tick-div"><img src="./tick.png" alt="">Everything in Starter and Professional
+                            <p class="tick-div"><img src="./tick.png" alt="">Everything in Starter and Professional
                                 plus...
-                            </li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Subcontractor Management</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Hiring Agreement Templates (1099
+                            </p>
+                            <p class="tick-div"><img src="./tick.png" alt="">Subcontractor Management</p>
+                            <p class="tick-div"><img src="./tick.png" alt="">Hiring Agreement Templates (1099
                                 contracts)
-                            </li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Subcontractor Onboarding</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Talent Pool</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">3 Team Seats (additional seats $9/month)
-                            </li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Accountant Access</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Connect Multiple Bank Accounts</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Unlimited Subcontractors</li>
-                            <li class="tick-div"><img src="./tick.png" alt="">Unlimited Project Collaborators</li>
+                            </p>
+                            <p class="tick-div"><img src="./tick.png" alt="">Subcontractor Onboarding</p>
+                            <p class="tick-div"><img src="./tick.png" alt="">Talent Pool</p>
+                            <p class="tick-div"><img src="./tick.png" alt="">3 Team Seats (additional seats $9/month)
+                            </p>
+                            <p class="tick-div"><img src="./tick.png" alt="">Accountant Access</p>
+                            <p class="tick-div"><img src="./tick.png" alt="">Connect Multiple Bank Accounts</p>
+                            <p class="tick-div"><img src="./tick.png" alt="">Unlimited Subcontractors</p>
+                            <p class="tick-div"><img src="./tick.png" alt="">Unlimited Project Collaborators</p>
                         </ul>
                         <div class="margin-top auto"></div>
-                        <a href="#" class="main-nav-link"><button class="w-button">START FREE</button></a>
+                        <a href="#" class="main-nav-link"><button class="w-button wide">START FREE</button></a>
                     </article>
                 </div>
                 <div class="section-main spacing"></div>
-                <div class="Customize">
-                    <h2 class="text-align-center">Customize your workflow with add-ons</h2>
+                <div class="customize">
+
+                    <h2 class="text-align-center c">Customize your workflow with add-ons</h2>
+
+                    <div class="customizetable"></div>
+
                     <div class="card2">
-                        <h3>Accounting & Tax Assistant</h3>
-                        <p>Manage your freelance finances and always be ready for tax season with easy-to-use accounting
-                            and
-                            tax tools.</p>
+                        <div>
+                            <h3 class="heading-small">Accounting & Tax Assistant</h3>
+                            <p class="card2text">Manage your freelance finances and always be ready for tax season with
+                                easy-to-use accountin and tax tools.</p>
+                        </div>
+                        <div class="right-add-on-content">
+                            <div class="heading-xlarge">$100<br><br></div>
+                            <div class="text-size-small text-capitalize text-align-center">/year</div>
+                        </div>
                     </div>
                     <div class="card2">
-                        <h3>Partners</h3>
-                        <p>Invite other users for full account access and company management.</p>
+                        <div>
+                            <h3 class="heading-small">Partners</h3>
+                            <p class="card2text">Invite other users for full account access and company management.</p>
+                        </div>
+                        <div class="right-add-on-content">
+                            <div class="heading-xlarge">$90<br><br></div>
+                            <div class="text-size-small text-capitalize text-align-center">/year</div>
+                        </div>
                     </div>
                     <div class="card2">
-                        <h3>Collaborators</h3>
-                        <p>Invite other users to specific projects for limited access and functionality.</p>
+                        <div>
+                            <h3 class="heading-small">Collaborators</h3>
+                            <p class="card2text">Invite other users to specific projects for limited access and
+                                functionality.</p>
+                        </div>
+                        <div class="right-add-on-content">
+                            <div class="heading-xlarge">FREE<br></div>
+
+                        </div>
                     </div>
-                    <div class="enrollbutton">
-                        <h2>It's your business. We're here to help it grow. </h2>
+                    <!-- <div class="enrollbutton">
+                        It's your business. We're here to help it grow.
 
                         <button>START FREE</button>
                     </div>
@@ -149,23 +206,12 @@
                         <li>What is your refund policy?</li>
                     </ul>
 
-                </div>
-            </div>
+                </div> -->
+
 
 
     </main>
 </body>
-<!-- Change tick,background color and make dropdown menu on products and templates -->
-<!-- Add the buttons on card1, fix the grid in card2 and somehow manage to make toggle with the frequently asked questions -->
-<!-- if have time to make mediaquery for phone and tablet -->
-<!-- adjust start free button closer to login and add the button for the plans and pricing -->
+
 
 </html>
-
-
-
-
-
-
-
-<!-- IS NOT THAT EASY WEBPAGEEEEEE:ccccccccc -->
