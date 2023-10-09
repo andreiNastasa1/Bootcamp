@@ -1,0 +1,52 @@
+.main-nav-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 40px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #4c4d5f;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+a {
+    background-color: transparent;
+    color: #00b289;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-bar-container {
+    position: fixed;
+    background-color: #fff;
+    padding: 1em 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+nav-bar {
+    display: inline;
+}
+
+div.logo {
+    display: inline;
+    float: left;
+    position: relative;
+    left: 350px;
+}

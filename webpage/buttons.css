@@ -1,0 +1,82 @@
+button {
+    margin-left: 17px;
+    background-color: #00b289;
+    color: #fff;
+    padding: 12px 27px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+}
+
+#log-in {
+    background-color: #fff;
+    color: #00b289;
+    padding: 12px 22px 9px 22px;
+    border: 1px solid #00b289;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+}
+
+#log-in:hover {
+    background-color: #00b289;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-button {
+    margin-left: 17px;
+    padding: 12px 27px 9px;
+    border: 1px solid #00b289;
+    border-radius: 4px;
+    background-color: #00b289;
+    color: #fff;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+}
+
+.main-nav-link {
+
+    display: flex;
+    margin-right: 40px;
+
+
+
+    align-items: center;
+    color: #4c4d5f;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+span.button-navbar {
+    display: flex;
+    float: right;
+    justify-content: center;
+}
+
+.main-nav-link .wide {
+
+    width: 100%;
+    padding: 22px 25px;
+    border-radius: 4px;
+    background-color: #00b289;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .7px;
+
+
+
+}
